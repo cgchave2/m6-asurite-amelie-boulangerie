@@ -62,7 +62,6 @@ nav a{
     background-color: #f28095;
     text-decoration: none;
     color: #141a1a;
-   
     padding:16px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -78,7 +77,7 @@ main{
    
 }
 
-main image{
+main img{
     float: left;
 }
 main p ul{
@@ -93,8 +92,14 @@ main p{
 main ul{
     margin-left: 16px;
 }
+main li{
+    display: list-item;
+}
 
 address{
-    clear: both;   
+    clear: both;
+    text-align: left;   
+    font-size: 10px;
+    font-style: italic;
 }
 
